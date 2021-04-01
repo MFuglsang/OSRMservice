@@ -40,4 +40,60 @@
   
   <workingdirectory>C:\app\OSRMservice\app\winsw</workingdirectory>
 
+  <!--
+  OPTION: startmode
+  Defines start mode of the service.
+  Supported modes: Automatic, Manual, Boot, System (latter ones are supported for driver services only)
+  Default mode: Automatic    -->
+  
+  <startmode>Automatic</startmode>
+
+  <!--
+      OPTION: delayedAutoStart
+      Enables the Delayed Automatic Start if 'Automatic' is specified in the 'startmode' field.
+      See the WinSW documentation to get info about supported platform versions and limitations.
+    -->
+
+  <delayedAutoStart>false</delayedAutoStart>
+
+
+  <!--
+    OPTION: serviceaccount
+    Defines account, under which the service should run.-->
+
+  <!--serviceaccount>
+    <domain>YOURDOMAIN</domain>
+    <user>useraccount</user>
+    <password>Pa55w0rd</password>
+    <allowservicelogon>true</allowservicelogon>
+  </serviceaccount-->
+  
+    <!--
+    OPTION: onfailure
+    Defines a sequence of actions, which should be performed if the managed executable fails.
+    Supported actions: restart, reboot, none  -->
+ 
+  <onfailure action="restart" delay="10 sec"/>
+
+  <!--
+    OPTION: priority
+    Desired process priority.
+    Possible values: Normal, Idle, High, RealTime, BelowNormal, AboveNormal
+    Default value: Normal  -->
+
+  <priority>Normal</priority>
+
+<!--
+    OPTION: logpath
+    Sets a custom logging directory for all logs being produced by the service wrapper
+    Default value: Directory, which contains the executor
+  -->
+
+  <logpath>..\..\logs</logpath>
+  <log mode="roll-by-size-time">
+    <sizeThreshold>102400</sizeThreshold>
+    <pattern>yyyyMMdd</pattern>
+    <autoRollAtTime>00:00:00</autoRollAtTime>
+  </log>
+
 </service>
