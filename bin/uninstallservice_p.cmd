@@ -1,2 +1,6 @@
-C:\app\OSRMservice\app\winsw\osrmservice.exe uninstall C:\app\OSRMservice\app\winsw\osrmservice.xml
+cd ..
+cd app\winsw\
+.\osrmservice.exe uninstall osrmservice.xml
+cd ..\..
+cd bin
 pause
