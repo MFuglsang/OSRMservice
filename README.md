@@ -7,3 +7,7 @@
 <h>Requiremients</h>
 
 1. An OSM data file in .pbf format (Downlod from Geofabric.de : https://download.geofabrik.de/)
+2. An OSRM build for Windows (Compile it yourself, or get it from http://build.project-osrm.org/)
+3. The WinSW executable (Get it from https://github.com/winsw/winsw/releases)
+
+These are the essential buildingblocks you need to set up an OSRM serice with this projects configuration...
