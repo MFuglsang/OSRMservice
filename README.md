@@ -12,7 +12,7 @@
 
 These are the essential buildingblocks you need to set up an OSRM serice with this projects configuration...
 
-<h4><b>Requirements</b></h4>
+<h4><b>Installation</b></h4>
 
 Step 1 :
 Extract the OSRM files to app/osrm. 
