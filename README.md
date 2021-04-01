@@ -4,7 +4,7 @@
 <p>The service should be easy to maintain, through simple configuration and pre-defined cmd files, manageing the service. Using the native configuration of OSRM through .lua files for the profiling, and the simplicity of WinSW for the management of the service - it should be quite simple to set up a Windows service of OSMR-backend. </p>
 
 
-<h>Requiremients</h>
+<h><b>Requiremients</b></h>
 
 1. An OSM data file in .pbf format (Downlod from Geofabric.de : https://download.geofabrik.de/)
 2. An OSRM build for Windows (Compile it yourself, or get it from http://build.project-osrm.org/)
