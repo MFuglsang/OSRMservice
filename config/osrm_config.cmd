@@ -1,4 +1,4 @@
 
-:: Default clean interval, can be changed in the configuration file
-::
+:: Set the lua profile to be used for the routing enigne while loading data
+
 set LUA_PROFILE=car.lua
