@@ -4,7 +4,7 @@
 <p>The service should be easy to maintain, through simple configuration and pre-defined cmd files, manageing the service. Using the native configuration of OSRM through .lua files for the profiling, and the simplicity of WinSW for the management of the service - it should be quite simple to set up a Windows service of OSMR-backend. </p>
 
 
-<h4><b>Requirements</b></h4>
+<h3><b>Requirements</b></h3>
 
 1. An OSM data file in .pbf format (Downlod from Geofabric.de : https://download.geofabrik.de/)
 2. An OSRM build for Windows (Compile it yourself, or get it from http://build.project-osrm.org/)
@@ -12,7 +12,7 @@
 
 These are the essential buildingblocks you need to set up an OSRM serice with this projects configuration...
 
-<h4><b>Installation</b></h4>
+<h3><b>Installation</b></h3>
 
 <b>Step 1 :</b>
 Extract the OSRM files to app/osrm. 
@@ -32,7 +32,7 @@ Install and run the service by first installing the service using bin/installser
 <b>Test and verifications :</b>
 The service should then be up and running, recieving requests at : http://localhost:5000/route/v1/driving/lat;lon
 
-<h4><b>External documentation</b></h4>
+<h3><b>External documentation</b></h3>
  Since this project is just a wrapper for two isolated projects, the detailed documentation is best found near the source of these.
 </br>
  OSRM : https://github.com/Project-OSRM/osrm-backend</br>
