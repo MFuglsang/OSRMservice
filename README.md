@@ -14,27 +14,27 @@ These are the essential buildingblocks you need to set up an OSRM serice with th
 
 <h4><b>Installation</b></h4>
 
-Step 1 :
+<b>Step 1 :</b>
 Extract the OSRM files to app/osrm. 
 
-Step 2 : 
+<b>Step 2 :</b> 
 Copy the OSM datafile to data_dir. 
-In the config folder, open osrm_config.cmd ad fill in the required choices of lua profile etc.
+In the config folder, open osrm_config.cmd and fill in the required choices of lua profile etc.
 Build the OSRM data-model by running load_osm.cmd from the bin folder. This creates the OSRM datastructure required for the routing operations. Depending on the size of your OSM file, this process takes time.
 
-Step 3:
+<b>Step 3:</b>
 Copy the WinSW executable to the app/winsw folder, and rename it to osrmservice.exe
 Open the osrmservice.xml file, and edit the configuration if required - name of the service, logging etc.
 
-Step 4:
+<b>Step 4:</b>
 Install and run the service by first installing the service using bin/installservice_p.cmd, and starting the service using startservice_p.cmd
 
-Test and verifications :
+<b>Test and verifications :</b>
 The service should then be up and running, recieving requests at : http://localhost:5000/route/v1/driving/lat;lon
 
 <h4><b>External documentation</b></h4>
  Since this project is just a wrapper for two isolated projects, the detailed documentation is best found near the source of these.
-
- OSRM : https://github.com/Project-OSRM/osrm-backend
- 
+</br>
+ OSRM : https://github.com/Project-OSRM/osrm-backend</br>
+ </br>
  WinSW : https://github.com/winsw/winsw
