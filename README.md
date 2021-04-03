@@ -31,4 +31,9 @@ Install and run the service by first installing the service using bin/installser
 
 Test and verifications :
 The service should then be up and running, recieving requests at : http://localhost:5000/route/v1/driving/lat;lon
- 
+
+<h4><b>External documentation</b></h4>
+ Since this project is just a wrapper for two isolated projects, the detailed documentation is best found near the source of these.
+
+ OSRM : https://github.com/Project-OSRM/osrm-backend
+ WinSW : https://github.com/winsw/winsw
