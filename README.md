@@ -24,7 +24,7 @@ Build the OSRM data-model by running load_osm.cmd from the bin folder. This crea
 
 <b>Step 3:</b>
 Copy the WinSW executable to the app/winsw folder, and rename it to osrmservice.exe
-Open the osrmservice.xml file, and edit the configuration if required - name of the service, logging etc.
+Open the osrmservice_template.xml file, rename it to osrmservice.xml, and edit the configuration if required - name of the service, logging etc.
 
 <b>Step 4:</b>
 Install and run the service by first installing the service using bin/installservice_p.cmd, and starting the service using startservice_p.cmd
