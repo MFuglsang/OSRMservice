@@ -9,7 +9,7 @@
   <!-- Path to the executable, which should be started -->
   <!-- CAUTION: Don't put arguments here. Use <arguments> instead. -->
   <executable>C:\Users\MORTEN~1\GitHub\OSRMservice\app\osrm\osrm-routed.exe</executable>
-  <startarguments> C:\Users\MORTEN~1\GitHub\OSRMservice\data_dir\denmark-latest.osrm</startarguments>
+  <startarguments> C:\Users\MORTEN~1\GitHub\OSRMservice\data_dir\denmark-latest.osrm -p 5010</startarguments>
   
    <!--workingdirectory>C:\app\OSRMservice\app\winsw</workingdirectory-->
 
