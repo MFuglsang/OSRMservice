@@ -1,0 +1,1 @@
+C:\Users\MORTEN~1\GitHub\OSRMservice\app\osrm\osrm-routed.exe C:\Users\MORTEN~1\GitHub\OSRMservice\data_dir\denmark-latest.osrm -p 5000

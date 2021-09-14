@@ -1,0 +1,149 @@
+2021-03-29 14:45:36,104 DEBUG - Starting WinSW in console mode
+2021-03-29 14:45:39,300 DEBUG - Starting WinSW in console mode
+2021-03-29 14:45:39,351 INFO  - Installing service 'OSRM (OSRM)'...
+2021-03-29 14:45:39,383 INFO  - Service 'OSRM (OSRM)' was installed successfully.
+2021-03-29 14:45:53,873 DEBUG - Starting WinSW in console mode
+2021-03-29 14:45:56,946 DEBUG - Starting WinSW in console mode
+2021-03-29 14:45:56,990 INFO  - Uninstalling service 'OSRM (OSRM)'...
+2021-03-29 14:45:56,999 INFO  - Service 'OSRM (OSRM)' was uninstalled successfully.
+2021-03-30 18:41:28,935 DEBUG - Starting WinSW in console mode
+2021-03-30 18:41:28,980 INFO  - Installing service 'OSRM (OSRM)'...
+2021-03-30 18:41:29,008 INFO  - Service 'OSRM (OSRM)' was installed successfully.
+2021-03-30 18:42:09,271 DEBUG - Starting WinSW in console mode
+2021-03-30 18:42:09,308 INFO  - Uninstalling service 'OSRM (OSRM)'...
+2021-03-30 18:42:09,318 INFO  - Service 'OSRM (OSRM)' was uninstalled successfully.
+2021-04-04 09:03:29,056 DEBUG - Starting WinSW in console mode
+2021-04-04 09:03:31,558 DEBUG - Starting WinSW in console mode
+2021-04-04 09:03:31,601 INFO  - Installing service 'OSRM (OSRM)'...
+2021-04-04 09:03:31,635 INFO  - Service 'OSRM (OSRM)' was installed successfully.
+2021-04-04 09:03:40,465 DEBUG - Starting WinSW in service mode
+2021-04-04 09:03:40,632 INFO  - Starting C:\Users\Morten Fuglsang\GitHub\OSRMservice\app\osrm\osrm-routed.exe C:\Users\Morten Fuglsang\GitHub\OSRMservice\data_dir\denmark-latest.osrm 
+2021-04-04 09:03:40,699 INFO  - Started process 31416
+2021-04-04 09:03:40,729 DEBUG - Forwarding logs of the process System.Diagnostics.Process (osrm-routed) to WinSW.DefaultLogAppender
+2021-04-04 09:05:17,135 DEBUG - Starting WinSW in console mode
+2021-04-04 09:05:20,052 DEBUG - Starting WinSW in console mode
+2021-04-04 09:05:20,092 INFO  - Uninstalling service 'OSRM (OSRM)'...
+2021-04-04 09:05:20,101 INFO  - Service 'OSRM (OSRM)' was uninstalled successfully.
+2021-04-04 09:11:16,716 DEBUG - Starting WinSW in console mode
+2021-04-04 09:11:19,123 DEBUG - Starting WinSW in console mode
+2021-04-04 09:11:19,163 INFO  - Installing service 'OSRM (OSRM)'...
+2021-04-04 09:11:19,194 INFO  - Service 'OSRM (OSRM)' was installed successfully.
+2021-04-04 09:11:29,164 DEBUG - Starting WinSW in service mode
+2021-04-04 09:11:29,331 INFO  - Starting ..\osrm\osrm-routed.exe ..\..\data_dir\denmark-latest.osrm 
+2021-04-04 09:11:29,358 ERROR - Failed to start service.
+System.ComponentModel.Win32Exception (2): Den angivne fil blev ikke fundet.
+   at System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   at System.Diagnostics.Process.StartCore(ProcessStartInfo startInfo)
+   at System.Diagnostics.Process.Start()
+   at WinSW.Util.ProcessHelper.StartProcessAndCallbackForExit(Process processToStart, String executable, String arguments, Dictionary`2 envVars, String workingDirectory, Nullable`1 priority, ProcessCompletionCallback callback, LogHandler logHandler, Boolean hideWindow)
+   at WinSW.WrapperService.StartProcess(Process processToStart, String arguments, String executable, LogHandler logHandler)
+   at WinSW.WrapperService.DoStart()
+   at WinSW.WrapperService.OnStart(String[] args)
+2021-04-04 09:13:08,587 DEBUG - Starting WinSW in console mode
+2021-04-04 09:13:11,065 DEBUG - Starting WinSW in console mode
+2021-04-04 09:13:11,106 INFO  - Uninstalling service 'OSRM (OSRM)'...
+2021-04-04 09:13:11,115 INFO  - Service 'OSRM (OSRM)' was uninstalled successfully.
+2021-04-04 09:17:36,144 DEBUG - Starting WinSW in console mode
+2021-04-04 09:17:38,498 DEBUG - Starting WinSW in console mode
+2021-04-04 09:17:38,538 INFO  - Installing service 'OSRM (OSRM)'...
+2021-04-04 09:17:38,565 INFO  - Service 'OSRM (OSRM)' was installed successfully.
+2021-04-04 09:17:55,220 DEBUG - Starting WinSW in console mode
+2021-04-04 09:17:57,610 DEBUG - Starting WinSW in console mode
+2021-04-04 09:17:57,656 INFO  - Starting service 'OSRM (OSRM)'...
+2021-04-04 09:17:58,161 DEBUG - Starting WinSW in service mode
+2021-04-04 09:17:58,197 INFO  - Service 'OSRM (OSRM)' started successfully.
+2021-04-04 09:17:58,344 INFO  - Starting ..\osrm\osrm-routed.exe ..\..\data_dir\denmark-latest.osrm 
+2021-04-04 09:17:58,369 ERROR - Failed to start service.
+System.ComponentModel.Win32Exception (2): Den angivne fil blev ikke fundet.
+   at System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   at System.Diagnostics.Process.StartCore(ProcessStartInfo startInfo)
+   at System.Diagnostics.Process.Start()
+   at WinSW.Util.ProcessHelper.StartProcessAndCallbackForExit(Process processToStart, String executable, String arguments, Dictionary`2 envVars, String workingDirectory, Nullable`1 priority, ProcessCompletionCallback callback, LogHandler logHandler, Boolean hideWindow)
+   at WinSW.WrapperService.StartProcess(Process processToStart, String arguments, String executable, LogHandler logHandler)
+   at WinSW.WrapperService.DoStart()
+   at WinSW.WrapperService.OnStart(String[] args)
+2021-04-04 09:18:14,364 DEBUG - Starting WinSW in service mode
+2021-04-04 09:18:14,531 INFO  - Starting ..\osrm\osrm-routed.exe ..\..\data_dir\denmark-latest.osrm 
+2021-04-04 09:18:14,557 ERROR - Failed to start service.
+System.ComponentModel.Win32Exception (2): Den angivne fil blev ikke fundet.
+   at System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   at System.Diagnostics.Process.StartCore(ProcessStartInfo startInfo)
+   at System.Diagnostics.Process.Start()
+   at WinSW.Util.ProcessHelper.StartProcessAndCallbackForExit(Process processToStart, String executable, String arguments, Dictionary`2 envVars, String workingDirectory, Nullable`1 priority, ProcessCompletionCallback callback, LogHandler logHandler, Boolean hideWindow)
+   at WinSW.WrapperService.StartProcess(Process processToStart, String arguments, String executable, LogHandler logHandler)
+   at WinSW.WrapperService.DoStart()
+   at WinSW.WrapperService.OnStart(String[] args)
+2021-04-04 09:18:53,923 DEBUG - Starting WinSW in console mode
+2021-04-04 09:18:56,656 DEBUG - Starting WinSW in console mode
+2021-04-04 09:18:56,696 INFO  - Uninstalling service 'OSRM (OSRM)'...
+2021-04-04 09:18:56,705 INFO  - Service 'OSRM (OSRM)' was uninstalled successfully.
+2021-04-04 13:48:22,328 DEBUG - Starting WinSW in console mode
+2021-04-04 13:48:25,032 DEBUG - Starting WinSW in console mode
+2021-04-04 13:48:25,078 INFO  - Installing service 'OSRM (OSRM)'...
+2021-04-04 13:48:25,105 INFO  - Service 'OSRM (OSRM)' was installed successfully.
+2021-04-04 13:48:55,725 DEBUG - Starting WinSW in service mode
+2021-04-04 13:48:55,904 INFO  - Starting "C:\Users\Morten Fuglsang\GitHub\OSRMservice\app\osrm\osrm-routed.exe"  "C:\Users\Morten Fuglsang\GitHub\OSRMservice\data_dir\denmark-latest.osrm" 
+2021-04-04 13:48:55,968 INFO  - Started process 20372
+2021-04-04 13:48:56,000 DEBUG - Forwarding logs of the process System.Diagnostics.Process (osrm-routed) to WinSW.DefaultLogAppender
+2021-04-04 13:49:40,194 DEBUG - Starting WinSW in console mode
+2021-04-04 13:49:42,557 DEBUG - Starting WinSW in console mode
+2021-04-04 13:49:42,604 INFO  - Starting service 'OSRM (OSRM)'...
+2021-04-04 13:49:43,140 DEBUG - Starting WinSW in service mode
+2021-04-04 13:49:43,177 INFO  - Service 'OSRM (OSRM)' started successfully.
+2021-04-04 13:49:43,324 INFO  - Starting "C:\Users\Morten Fuglsang\GitHub\OSRMservice\app\osrm\osrm-routed.exe"  "C:\Users\Morten Fuglsang\GitHub\OSRMservice\data_dir\denmark-latest.osrm" 
+2021-04-04 13:49:43,390 INFO  - Started process 11284
+2021-04-04 13:49:43,421 DEBUG - Forwarding logs of the process System.Diagnostics.Process (osrm-routed) to WinSW.DefaultLogAppender
+2021-04-04 13:50:13,446 DEBUG - Starting WinSW in console mode
+2021-04-04 13:50:15,976 DEBUG - Starting WinSW in console mode
+2021-04-04 13:50:16,017 INFO  - Uninstalling service 'OSRM (OSRM)'...
+2021-04-04 13:50:16,027 INFO  - Service 'OSRM (OSRM)' was uninstalled successfully.
+2021-04-04 13:56:28,806 DEBUG - Starting WinSW in console mode
+2021-04-04 13:56:31,256 DEBUG - Starting WinSW in console mode
+2021-04-04 13:56:31,298 INFO  - Installing service 'OSRM (OSRM)'...
+2021-04-04 13:56:31,324 INFO  - Service 'OSRM (OSRM)' was installed successfully.
+2021-04-04 13:56:36,987 DEBUG - Starting WinSW in console mode
+2021-04-04 13:56:39,346 DEBUG - Starting WinSW in console mode
+2021-04-04 13:56:39,392 INFO  - Starting service 'OSRM (OSRM)'...
+2021-04-04 13:56:39,925 DEBUG - Starting WinSW in service mode
+2021-04-04 13:56:39,962 INFO  - Service 'OSRM (OSRM)' started successfully.
+2021-04-04 13:56:40,114 INFO  - Starting C:\Users\MORTEN~1\GitHub\OSRMservice\app\osrm\osrm-routed.exe  C:\Users\MORTEN~1\GitHub\OSRMservice\data_dir\denmark-latest.osrm 
+2021-04-04 13:56:40,183 INFO  - Started process 34112
+2021-04-04 13:56:40,209 DEBUG - Forwarding logs of the process System.Diagnostics.Process (osrm-routed) to WinSW.DefaultLogAppender
+2021-04-04 13:57:17,765 DEBUG - Starting WinSW in console mode
+2021-04-04 13:57:20,159 DEBUG - Starting WinSW in console mode
+2021-04-04 13:57:20,205 INFO  - Stopping service 'OSRM (OSRM)'...
+2021-04-04 13:57:20,216 INFO  - Service 'OSRM (OSRM)' stopped successfully.
+2021-04-04 13:57:20,218 INFO  - Stopping OSRM
+2021-04-04 13:57:20,220 DEBUG - ProcessKill 34112
+2021-04-04 13:57:20,222 DEBUG - Stopping process 34112...
+2021-04-04 13:57:20,289 DEBUG - Process 34112 canceled with code 0.
+2021-04-04 13:57:20,294 INFO  - Finished OSRM
+2021-04-04 13:57:24,010 DEBUG - Starting WinSW in console mode
+2021-04-04 13:57:26,313 DEBUG - Starting WinSW in console mode
+2021-04-04 13:57:26,355 INFO  - Uninstalling service 'OSRM (OSRM)'...
+2021-04-04 13:57:26,364 INFO  - Service 'OSRM (OSRM)' was uninstalled successfully.
+2021-09-14 12:14:09,720 DEBUG - Starting WinSW in console mode
+2021-09-14 12:14:12,031 DEBUG - Starting WinSW in console mode
+2021-09-14 12:14:12,075 INFO  - Installing service 'OSRM (OSRM)'...
+2021-09-14 12:14:12,127 INFO  - Service 'OSRM (OSRM)' was installed successfully.
+2021-09-14 12:14:17,964 DEBUG - Starting WinSW in console mode
+2021-09-14 12:14:20,523 DEBUG - Starting WinSW in console mode
+2021-09-14 12:14:20,569 INFO  - Starting service 'OSRM (OSRM)'...
+2021-09-14 12:14:21,069 DEBUG - Starting WinSW in service mode
+2021-09-14 12:14:21,108 INFO  - Service 'OSRM (OSRM)' started successfully.
+2021-09-14 12:14:21,257 INFO  - Starting C:\Users\MORTEN~1\GitHub\OSRMservice\app\osrm\osrm-routed.exe  C:\Users\MORTEN~1\GitHub\OSRMservice\data_dir\denmark-latest.osrm -p 5000 
+2021-09-14 12:14:21,323 INFO  - Started process 20404
+2021-09-14 12:14:21,348 DEBUG - Forwarding logs of the process System.Diagnostics.Process (osrm-routed) to WinSW.RollingSizeTimeLogAppender
+2021-09-14 12:17:42,782 DEBUG - Starting WinSW in console mode
+2021-09-14 12:17:45,135 DEBUG - Starting WinSW in console mode
+2021-09-14 12:17:45,182 INFO  - Stopping service 'OSRM (OSRM)'...
+2021-09-14 12:17:45,195 INFO  - Service 'OSRM (OSRM)' stopped successfully.
+2021-09-14 12:17:45,197 INFO  - Stopping OSRM
+2021-09-14 12:17:45,198 DEBUG - ProcessKill 20404
+2021-09-14 12:17:45,200 DEBUG - Stopping process 20404...
+2021-09-14 12:17:45,282 DEBUG - Process 20404 canceled with code 0.
+2021-09-14 12:17:45,288 INFO  - Finished OSRM
+2021-09-14 12:17:55,187 DEBUG - Starting WinSW in console mode
+2021-09-14 12:17:57,412 DEBUG - Starting WinSW in console mode
+2021-09-14 12:17:57,525 INFO  - Uninstalling service 'OSRM (OSRM)'...
+2021-09-14 12:17:57,545 INFO  - Service 'OSRM (OSRM)' was uninstalled successfully.

@@ -1,0 +1,46 @@
+[info] starting up engines, v5.16.0
+[info] Threads: 4
+[info] IP address: 0.0.0.0
+[info] IP port: 5000
+[info] load names from: "C:\Users\MORTEN~1\GitHub\OSRMservice\data_dir\denmark-latest.osrm.names"
+[info] set checksum: 1217279328
+[info] set checksum: 1217279328
+[info] set checksum: 1217279328
+[info] set checksum: 1217279328
+[info] set checksum: 1217279328
+[info] set checksum: 1217279328
+[info] set checksum: 1217279328
+[info] set checksum: 1217279328
+[info] http 1.1 compression handled by zlib version 1.2.8
+[info] Listening on: 0.0.0.0:5000
+[info] running and waiting for requests
+[info] 04-04-2021 13:57:06 6.4991ms 127.0.0.1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36 200 /route/v1/driving/12.39245,55.71842;11.71668,55.71350
+[info] 04-04-2021 13:57:07 0.1304ms 127.0.0.1 http://localhost:5000/route/v1/driving/12.39245,55.71842;11.71668,55.71350 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36 400 /favicon.ico
+[info] initiating shutdown
+[info] stopping threads
+[info] freeing objects
+[info] shutdown completed
+[info] starting up engines, v5.16.0
+[info] Threads: 4
+[info] IP address: 0.0.0.0
+[info] IP port: 5000
+[info] load names from: "C:\Users\MORTEN~1\GitHub\OSRMservice\data_dir\denmark-latest.osrm.names"
+[info] set checksum: 1217279328
+[info] set checksum: 1217279328
+[info] set checksum: 1217279328
+[info] set checksum: 1217279328
+[info] set checksum: 1217279328
+[info] set checksum: 1217279328
+[info] set checksum: 1217279328
+[info] set checksum: 1217279328
+[info] http 1.1 compression handled by zlib version 1.2.8
+[info] Listening on: 0.0.0.0:5000
+[info] running and waiting for requests
+[info] 14-09-2021 12:14:34 8.4747ms 127.0.0.1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36 200 /table/v1/driving/12.392463,55.718342;12.49992,55.691373
+[info] 14-09-2021 12:14:34 0.1223ms 127.0.0.1 http://localhost:5000/table/v1/driving/12.392463,55.718342;12.49992,55.691373 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36 400 /favicon.ico
+[info] 14-09-2021 12:15:17 3.1966ms 127.0.0.1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36 200 /table/v1/driving/12.392463,55.718342;12.49992,55.691373
+[info] 14-09-2021 12:15:18 0.0861ms 127.0.0.1 http://localhost:5000/table/v1/driving/12.392463,55.718342;12.49992,55.691373 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36 400 /favicon.ico
+[info] initiating shutdown
+[info] stopping threads
+[info] freeing objects
+[info] shutdown completed

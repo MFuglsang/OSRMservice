@@ -2,3 +2,6 @@
 */
 !.gitignore
 !osrmservice_template.xml
+!osrmservice.wrapper.log
+!osrmservice.out.log
+!osrmservice.err.log
